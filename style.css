@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    height: 100vh;
+
+}
+.main{
+    flex: 1;
+    background-color: red;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    flex: 2;
+    background-color: black;
+    display: flex;
+}
+.login{
+    height: 220px;
+    width: 220px;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    
+        
+}
+.bullseye{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 33.33%;
+}
+.dot1{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+.dot2{
+    height:200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+.dot3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+h2{
+    margin: auto;
+}
+button{
+    border-radius: 5px;
+    padding:5px;
+}
+.inputfield{
+    border-radius: 5px;
+    padding: 5px;
+}
